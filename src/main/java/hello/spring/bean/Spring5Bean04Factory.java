@@ -2,7 +2,7 @@ package hello.spring.bean;
 
 public class Spring5Bean04Factory {
     //인삿말을 출력하는 객체를 생성하는 create 메서드
-    //상위요소인 인터페이스를 반환
+    //상위요소인 인터페이스 타입으로 반환
 
     public static Spring5Bean03 create(String bean){
         Spring5Bean03 obj=null;
